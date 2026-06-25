@@ -1,0 +1,23 @@
+# Secretos / entorno
+.env
+
+# Airflow
+airflow/logs/*
+!airflow/logs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
